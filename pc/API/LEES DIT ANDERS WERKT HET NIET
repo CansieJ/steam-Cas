@@ -1,0 +1,9 @@
+Om de code te kunnen runnen moet je deze stappen volgen:
+Vraag een Steam API Key aan via deze link: https://steamcommunity.com/dev/apikey
+-Als domeinnaam kan je 'ventieldopjes' gebruiken
+Ga vervolgens naar het ProjectSteam mapje op je computer en open die in je code-editor
+Maak een .env bestand aan in de root (oftewel niét in een submapje van het project) en vul daar deze 2 regels in:
+STEAM_API_KEY=X en vul jouw eigen api-key in op de plaats van de X
+STEAMID=X en vul jouw steam id in op de plaats van de x
+
+Dit moet omdat je je api key en steam id niet naar github wilt uploaden omdat andere mensen er dan gebruiken van zouden kunnen maken
