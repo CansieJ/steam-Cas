@@ -42,7 +42,7 @@ with serial.Serial(port=pico_port, baudrate=115200, bytesize=8, parity='N', stop
 
     try:
         # Request user input
-        commands = ['off', 'on', 'exit']
+        commands = ['neopixel update', 'off', 'on', 'exit']
         while True:
             choice = input("Command? [" + ", ".join(commands) + "] ")
 
